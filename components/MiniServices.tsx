@@ -4,6 +4,7 @@ import seo from "./images/seo.png"
 import mobapp from "./images/mobapp.png"
 import software from "./images/software.png"
 import marketing from "./images/marketing.png"
+import Link from 'next/link'
 const MiniServices = () => {
   return (
     <div className=' m-auto  text-center py-[3rem] bg-base-200 '>
@@ -24,7 +25,7 @@ const MiniServices = () => {
             <h3 className="text-2xl pt-3">Marketing</h3>
             </div>   
         </div> 
-        <button className="btn btn-primary btn-outline">Book Our Services</button>
+        <Link href={"https://calendly.com/iamsajjadali-dev/30min"} className="btn btn-primary btn-outline">Book Our Services</Link>
         
     </div>
   )

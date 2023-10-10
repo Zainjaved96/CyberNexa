@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import CodeMockup from '@/components/CodeMockup'
 import img from "./images/device.png"
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -12,7 +13,7 @@ const Hero = () => {
       <h2 className="text-2xl col-4 ">Unlock the potential of your enterprise with our top-notch software development team. </h2>
       <div className="flex gap-2 pt-5">
       <button className="btn btn-primary ">Our Service</button>
-      <button className="btn btn-outline btn-secondary ">Get in Touch</button>
+      <Link href={'https://calendly.com/iamsajjadali-dev/30min'} className="btn btn-outline btn-secondary ">Get in Touch</Link>
 
       </div>
     </div>
