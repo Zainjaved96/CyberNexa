@@ -11,7 +11,7 @@ import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
   title: 'CyberNexa',
-  description: '...',
+  description: 'An all round Digital Solution company for your online presence.',
 }
 export default function Home() {
   return (
