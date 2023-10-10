@@ -7,7 +7,12 @@ import CodeMockup from '@/components/CodeMockup';
 import Stats from '@/components/Stats';
 import Process from '@/components/Process';
 import Footer from '@/components/Footer';
-
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'CyberNexa',
+  description: '...',
+}
 export default function Home() {
   return (
     <>
