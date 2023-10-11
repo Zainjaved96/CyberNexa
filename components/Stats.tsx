@@ -2,8 +2,8 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    
-  <div className="stats py-[2rem] shadow flex px-md-5 flex-col md:flex-row justify-center ">
+    <div className="hero">
+          <div className="stats py-[2rem] shadow flex px-md-5 flex-col md:flex-row justify-center ">
   
   <div className="stat">
     <div className="stat-figure text-primary">
@@ -33,6 +33,8 @@ const Stats = () => {
   </div>
   
 </div>
+    </div>
+  
     
 
   )

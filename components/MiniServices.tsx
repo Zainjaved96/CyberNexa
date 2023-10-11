@@ -2,7 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import seo from "./images/seo.png"
 import mobapp from "./images/mobapp.png"
-import software from "./images/software.png"
+import softdev from "./images/soft-dev.png"
+import webdev from  "./images/web-dev.png"
 import marketing from "./images/marketing.png"
 import Link from 'next/link'
 const MiniServices = () => {
@@ -17,9 +18,15 @@ const MiniServices = () => {
             </div>   
               
             <div className="card max-w-[14rem] btn-ghost">
-            <Image src={software} width={200} height={200} alt='hey' />
-            <h3 className="text-2xl pt-3">Development</h3>
+            <Image src={softdev} width={200} height={200} alt='hey' />
+            <h3 className="text-2xl pt-3">Software Development</h3>
+            </div>  
+
+            <div className="card max-w-[14rem] btn-ghost">
+            <Image src={webdev} width={200} height={200} alt='hey' />
+            <h3 className="text-2xl pt-3">Website Development</h3>
             </div>   
+
             <div className="card max-w-[14rem] btn-ghost">
             <Image src={marketing} width={200} height={200} alt='hey' />
             <h3 className="text-2xl pt-3">Marketing</h3>
