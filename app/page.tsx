@@ -8,7 +8,6 @@ import Stats from '@/components/Stats';
 import Process from '@/components/Process';
 import Footer from '@/components/Footer';
 import type { Metadata } from 'next'
-import Testimonials from '@/components/Testimonials';
  
 export const metadata: Metadata = {
   title: 'CyberNexa',
@@ -24,7 +23,6 @@ export default function Home() {
     <CodeMockup/>
     <Stats/>
     <Process/>
-   <Testimonials/>
     <Footer/>
 
     </>
