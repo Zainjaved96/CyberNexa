@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className="navbar  bg-base-100 lg:pr-[10rem] lg:pl-[8rem] mx-auto">
@@ -33,16 +33,9 @@ const Navbar = () => {
   </div>
   <div className="navbar-center dropdown dropdown-hover hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a className='btn-primary btn-ghost'>Home</a></li>
-      <li tabIndex={0}>
-        <details>
-          <summary>About</summary>
-          <ul className="p-2 w-52 shadow bg-white z-[10]">
-            <li><a className ="hover:text-primary text-black">Our Story</a></li>
-            <li><a className="hover:text-primary text-black">Our Team</a></li>
-          </ul>
-        </details>
-      </li>
+      <li><Link href={"/"} className='btn-primary btn-ghost'>Home</Link></li>
+      <li><Link href={"/about"} className='btn-primary btn-ghost'>About</Link></li>
+      
       <li><a className='btn-primary btn-ghost'>Careers</a></li>
       <li tabIndex={1}>
         <details>
