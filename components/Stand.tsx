@@ -4,7 +4,7 @@ import Image from 'next/image'
 import punctual from  "./images/icons/punctual.png"
 import efficient from  "./images/icons/efficient.png"
 import honesty from  "./images/icons/honesty.png"
-import trust from  "./images/icons/trust.png"
+import trust from  "./images/icons/Trust.png"
 const Stand = () => {
   return (
     <>
