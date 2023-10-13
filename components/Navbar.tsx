@@ -11,11 +11,8 @@ const Navbar = () => {
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
         <li><a>Home</a></li>
         <li>
-          <a>About </a>
-          <ul className="p-2">
-            <li><a>Our Team</a></li>
-            <li><a>Our Story</a></li>
-          </ul>
+          <Link href={'/about'}>About </Link>
+          
         </li>
         <li><a>Careers</a></li>
         <li>
@@ -25,11 +22,11 @@ const Navbar = () => {
             <li><a>Software Development</a></li>
           </ul>
         </li>
-        <li><a>Contact Us</a></li>
+        <li><Link href={'/contact'}>Contact Us</Link></li>
       </ul>
       
     </div>
-    <a className="btn btn-ghost normal-case text-xl justify-end">CyberNexa</a>
+    <a className="btn btn-ghost normal-case text-xl justify-center"><span>Cyber<span className="text-secondary ">Nexa</span></span></a>
   </div>
   <div className="navbar-center dropdown dropdown-hover hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -46,7 +43,7 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li><a className='btn-primary btn-ghost'>Contact Us</a></li>
+      <li><Link href={'/contact'} className='btn-primary btn-ghost'>Contact Us</Link></li>
       
     </ul>
   </div>

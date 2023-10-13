@@ -80,7 +80,7 @@ const Features = () => {
       <div className="flex justify-center">
         <div className="max-w-[700px] text-center">
           
-          <h2 className="text-6xl font-bold mb-2">Why are we so <span className="text-secondary "> Great</span> </h2>
+          <h2 className="text-6xl font-bold mb-2">Key <span className="text-secondary ">Features</span> </h2>
           <p className="mb-16 text-neutral-500 dark:text-neutral-300">
             We offer expert solution and features tailored just for your needs we pinpoint the objective and achieve with efficient pace.
           </p>

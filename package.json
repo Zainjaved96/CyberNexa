@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "daisyui": "^3.9.2",
+    "framer": "^2.4.1",
+    "framer-motion": "^10.16.4",
     "next": "13.5.4",
     "next-images": "^1.8.5",
     "react": "^18",
