@@ -8,7 +8,7 @@ import marketing from "./images/marketing.png"
 import Link from 'next/link'
 const MiniServices = () => {
   return (
-    <div className=' m-auto  text-center py-[3rem] bg-base-200 '>
+    <div className=' m-auto  text-center py-[3rem] '>
         <h2 className="text-6xl font-bold">Services We <span className="text-secondary "> Provide</span> </h2>
         <p className="text-xl py-1 text-info">That help you scale your business efficiently.</p>
         <div className='flex flex-wrap justify-evenly gap-2 align-middle py-[3rem]'>

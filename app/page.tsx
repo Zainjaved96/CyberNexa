@@ -4,10 +4,11 @@ import Hero from '@/components/Hero'
 import MiniServices from '@/components/MiniServices'
 import WhyUs from './../components/WhyUs';
 import CodeMockup from '@/components/CodeMockup';
-import Stats from '@/components/Stats';
 import Process from '@/components/Process';
 import Footer from '@/components/Footer';
 import type { Metadata } from 'next'
+import Testimonials from '@/components/Testimonials';
+import Features from '@/components/Features';
  
 export const metadata: Metadata = {
   title: 'CyberNexa',
@@ -19,10 +20,12 @@ export default function Home() {
     <Navbar/>
     <Hero/>
     <MiniServices/>
+    <Features/>
     <WhyUs/>
     <CodeMockup/>
-    <Stats/>
+    <Testimonials/>
     <Process/>
+
     <Footer/>
 
     </>

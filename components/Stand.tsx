@@ -11,7 +11,7 @@ const Stand = () => {
      <div className=" py-[3rem] bg-base-200 ">
         <div className="grid md:grid-cols-2 px-3  md:px-[10rem]">
             <div className='md:m-auto sm:mb-4 '>
-                <h2 className="text-3xl text-primary">What we Stand for.</h2>
+            <h2 className="text-6xl font-bold mb-2">Our<span className="text-secondary "> Values</span></h2>
                 <p className="pe-4 text-justify">Our Values mean alot to use and we have followed them in our years of journey. Our each employee follows these principles and consider them dear in their hearts. We would love if you also consider these things. </p>
                 <button className="btn btn-md mt-3 btn-primary">Get to Know</button>
             </div>

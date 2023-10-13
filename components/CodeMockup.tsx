@@ -2,7 +2,7 @@ import React from 'react'
 
 const CodeMockup = () => {
   return (
-    <div className="flex justify-center  py-[2rem]">
+    <div className="flex justify-center  py-[4rem]">
           <div className="mockup-code  bg-secondary text-black">
         <pre data-prefix="$" className='text-danger'><code>npm i BEST_SOLUTION_FOR_YOUR_BUSINESS</code></pre> 
         <pre data-prefix=">" className="text-danger font-semibold"><code>installing...</code></pre> 

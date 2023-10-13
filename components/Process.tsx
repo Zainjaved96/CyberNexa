@@ -5,7 +5,7 @@ const Process = () => {
     <div >
     <div className="row py-12 bg-base-200 grid cols-2">
       <div>
-      <h2 className='text-4xl text-center font-bold'>Our  Streamline <span className="text-secondary"> Process </span></h2>
+      <h2 className="text-6xl font-bold text-center">Our<span className="text-secondary ">  Streamlined</span> Process </h2>
         <p className='max-w-3xl text-justify mt-2  mx-auto'>CyberNexa, a leading tech company, follows a three-step approach: Requirements, Analysis, and Solutions. By first thoroughly understanding client needs, we leverage advanced tools to craft effective solutions. Our results consistently surpass expectations, providing clients with tailored, cost-efficient solutions that empower them in the dynamic tech industry.</p>
       </div>
       

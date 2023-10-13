@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 const WhyUs = () => {
   return (
-    <div className="hero py-[3rem] bg-base-200  ">
+    <div className="hero py-[3rem]   ">
     <div className="hero-content flex-col  lg:flex-row">
     <div className='flex flex-col gap-1 max-w-[40rem]'>
         <h2 className="text-5xl text-primary font-bold ">Why Choose us?</h2>
